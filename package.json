@@ -2,6 +2,7 @@
   "name": "covid19_visualization_react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Nuel822.github.io/Covid19_VisualizationReact",
   "dependencies": {
     "@antv/data-set": "^0.11.4",
     "@antv/g2": "^4.0.4",
@@ -11,6 +12,7 @@
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap-typeahead": "^5.0.0-alpha.1",
     "react-dom": "^16.13.1",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
