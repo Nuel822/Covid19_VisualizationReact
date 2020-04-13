@@ -29,7 +29,7 @@ export default {
    CountryStats(url = "https://covid-193.p.rapidapi.com/statistics", config = CountryStatConfiguration) {
         return {
             get: () => axios.get(url, config),
-            fetch: () => axios.get('https:/g2.antv.vision/en/examples/data/world.geo.json') 
+            fetch: () => axios.get('https://g2.antv.vision/en/examples/data/world.geo.json') 
         }
 
     }
