@@ -82,7 +82,7 @@ const DisplayMapChart = (props) => {
             .size('magnitude', [2, 30])
             .shape('circle')
             .color('#FF2F29')
-            .tooltip('country*active*recovered*critical*total*totalCases')
+            .tooltip('country*active*recovered*critical*totalDeaths*totalCases')
             .style({
               fillOpacity: 0.45,
             })

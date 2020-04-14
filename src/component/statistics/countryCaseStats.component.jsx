@@ -75,7 +75,7 @@ const CountryCaseStats = (props) => {
     return (
 
         <Card small className="h-100">
-            <CardHeader className="border-bottom">
+            <CardHeader className="border-bottom m-2">
                 <h6 className="m-0">{props.title}</h6>
             </CardHeader>
             <CardBody className="py-0">
